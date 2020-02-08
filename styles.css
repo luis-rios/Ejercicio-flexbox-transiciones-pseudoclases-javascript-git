@@ -1,0 +1,225 @@
+body{
+    font-family: 'open sans';
+    margin: 0px;
+    background-color: black;
+}
+
+.menu-container{
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    height: 50px;
+    padding: 20px 20px;
+    background-color: #98989880;
+    position: fixed;
+    width: 100%;
+}
+
+.logo{
+    flex: 1 1 300px;
+}
+
+.logo>img{
+    max-height: 100%;
+}
+
+.menu{
+    flex: 1 1 300px;
+}
+
+.menu ul{
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flexbox;    
+    list-style: none;
+    padding-left: 0px;
+}
+.menu ul>li{
+    flex-grow: .5;
+}
+.menu a{
+    color: #FFF;
+    text-decoration: none;
+}
+
+.menu a:hover{
+    color: #000;
+}
+
+.inicio{
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    background-image: url(coding.jpg);
+    height: 700px;
+    align-items: center;
+    color: #FFF;
+    justify-content: space-around;
+}
+
+.inicio>.caption{
+    flex: 0 1 40%;
+    background-color: #00000085;
+    padding: 30px;
+    border-radius: 4px;
+}
+
+.inicio h1{
+    font-size: 42px;
+    margin-top: 0px;
+}
+
+.redes-sociales i{
+    padding: 20px;
+    border-radius: 50%;
+    border: solid 1px #FFF;
+    font-size: 21px;
+    color: #FFF;
+    margin: 0px 10px;
+}
+
+.redes-sociales .fa-facebook-f{
+    padding-left: 23px;
+    padding-right: 23px;
+}
+.informacion{
+    flex: 1 1 300px;
+    background-color: black;
+    color: rgb(253, 251, 249);
+    
+}
+.contenido{
+    text-align: center;    
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+.informacion span{
+    display: flex;
+    justify-content: center;    
+    color: gray;
+}
+
+.imagen img{
+    
+    border: solid 13px yellow;
+    width: 400px;
+}
+.imagen{
+    display: flex;    
+    width: 40%;
+    justify-content: center;
+    height: 500px;
+
+}
+.info {
+  display: inline-block;  
+  width: 40%;
+    
+}
+.info p, .ti{
+    text-align: left;
+}
+.info .p1{
+    text-align: left;
+    color: gray;
+}
+
+.descarga{
+   
+    display: flex;
+    /*Arriba/abajo izquierda/Derecha*/
+    padding: 15px 20px;
+    background-color: yellow;
+    color:#fff;
+    text-decoration: none;
+    border-radius: 20px;
+    justify-content: flex-start;
+    max-width: 100px;
+}
+.descarga:hover{
+    background-color: white;
+    color:yellow;
+}
+.descarga:active{
+    background-color:white;
+    color:yellow;
+}
+
+
+.redes>.fa-facebook-f:hover{
+     background-color: blue;
+    
+}
+.redes>.fa-github:hover{
+    background-color: rgb(211, 191, 191);
+    
+}
+.redes>.fa-instagram:hover{
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%); 
+
+    
+}
+.servicios{
+    flex: 1 1 300px;
+    background-color: black;
+    color: rgb(253, 251, 249);
+    
+}
+
+.titulo {
+    
+    width: 50%;    
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    margin-left: 400px;
+    margin-top: 200px ;
+}
+.titulo h1{
+    text-align: center;
+    font-size: 45px;
+}
+.titulo p{
+    text-align: center;
+    color: gray;
+    
+}
+.contenedor{
+    display: flex;
+    /*padding: 10px 10px;*/
+    flex-wrap: wrap;
+    height: auto;
+    width: 1500px;
+    
+    justify-content: center;  
+    align-items: center; 
+    margin-top: 90px;
+    
+}
+.contenedor .item{        
+    height: 300px;
+    width: 390px;
+    border: 1px solid ;    
+    margin-top: 30px;
+    margin-left: 30px;
+    padding: 10px 10px;
+    transition: all 0.4s cubic-bezier(.46,.08,.29,.86) 0s;
+    cursor: text;
+}
+.contenedor p{
+    text-align: center;
+    color: yellow;
+    font-size: 30px;
+}
+
+.contenedor :hover{
+    color: white;
+    background-color: yellow;
+}
+.item>.fa-laptop-code,.fa-chart-bar,.fa-chart-pie,.fa-buffer,.fa-mobile-alt,.fa-camera{
+    font-size: 40px;
+}
